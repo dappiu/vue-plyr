@@ -20,10 +20,10 @@ describe('VuePlyr.vue [Video]', () => {
   })
 
   it('Passes options prop properly.', async () => {
-    const speed = {selected: 0.5, options: [0.5, 0.75, 1, 1.5, 2]}
+    const speed = { selected: 0.5, options: [0.5, 0.75, 1, 1.5, 2] }
     const settings = ['quality', 'speed']
     const volume = 0.75
-    const loop = {active: true}
+    const loop = { active: true }
 
     const wrapper = shallowMount(VuePlyr, {
       propsData: {
