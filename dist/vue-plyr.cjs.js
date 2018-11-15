@@ -71,7 +71,7 @@ var script = {
 
 /* script */
             const __vue_script__ = script;
-            
+
 /* template */
 var __vue_render__ = function() {
   var _vm = this;
@@ -114,11 +114,11 @@ __vue_render__._withStripped = true;
     return component
   }
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var VuePlyr = __vue_normalize__(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
